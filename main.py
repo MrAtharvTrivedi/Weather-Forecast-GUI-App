@@ -7,6 +7,9 @@ import customtkinter
 # Storing the API Key inside a variable
 API_KEY = 'Enter you API Key Here'
 
+# Storing the path to icon inside a variable
+ICON_PATH = "Enter the full path to the icon"
+
 # Url of the API provider website
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
@@ -29,7 +32,7 @@ root.title("Weather App")
 root.resizable(0,0)
 
 # Setting an icon for the window
-root.iconbitmap("Enter the full path to the icon")
+root.iconbitmap(ICON_PATH)
 
 # Creating an entry field to take input from the user
 CITY_NAME = customtkinter.CTkEntry(master=root, placeholder_text="Enter City Name", width=150)
