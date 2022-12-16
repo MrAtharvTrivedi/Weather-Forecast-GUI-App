@@ -31,9 +31,6 @@ root.title("Weather App")
 # Making the window un-resizable
 root.resizable(0,0)
 
-# Setting an icon for the window
-root.iconbitmap(ICON_PATH)
-
 # Creating an entry field to take input from the user
 CITY_NAME = customtkinter.CTkEntry(master=root, placeholder_text="Enter City Name", width=150)
 CITY_NAME.pack(pady = 20, padx =10)
